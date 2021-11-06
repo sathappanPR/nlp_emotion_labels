@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>https://www.emotion-labels.com</title>
+	<link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class = "img_blur"></div>
+	<div class="container">
+		<h2>EMOTION LABELS</h2>
+	</div>
+	
+
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict')}}" method="POST">
+		<div class="Enter">
+			<p>Enter Your Message Here :</p>
+		</div>
+		
+		<!-- <input type="text" name="comment"/> -->
+		<div class = "input">
+			<textarea name="message" rows="6" cols="50"></textarea>
+		</div>
+		
+		<br/>
+
+
+		<input type="submit" class="btn-info" value="predict">
+		
+	</form>
+		
+	</div>
+
+	<style>
+		.img_blur {
+			background: url('https://images.pexels.com/photos/5010877/pexels-photo-5010877.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-5010877.jpg&fm=jpg');
+			-webkit-background-size:cover;
+			background-size: cover;
+			background-position: center;
+			height:100vh;
+			background-repeat: no-repeat;
+			position: fixed;
+			left:0;
+			right: 0;
+			z-index: -5;
+			filter: blur(12px);
+			
+				
+		}
+
+		.Enter{
+			font-family: 'Fruktur', cursive;
+			text-align: center;
+			color: white;
+			font-size: 25px;
+		}
+
+		.container{
+			width:100%;
+			margin: auto;
+			overflow: hidden;
+			text-align: center;
+			font-family: 'Fruktur', cursive;
+			font-size: 40px;
+		}
+
+				
+		
+
+		.input{
+			margin-left: 565px;
+		}
+
+
+
+
+
+		.btn-info {background-color: #2196F3;
+			height:40px;
+			width:100px;
+			margin-left: 855px;
+			
+			} /* Blue */
+
+		.btn-info:hover {background: #0b7dda;}
+
+
+
+	</style>
+
+
+
+	
+	
+
+</body>
+</html>
