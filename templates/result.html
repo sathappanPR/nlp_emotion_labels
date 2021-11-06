@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>https://www.emotion-labels-result.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fruktur&family=Libre+Baskerville:ital@1&family=Pacifico&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+	<div class = "img_blur"></div>
+	<div class="container">
+		<h2>Results for Comment</h2>
+	</div>
+
+	
+	<div class="results">
+
+	    {% if prediction == 0%}
+		<h2>Sentence : sadness</h2>
+		<img src="static\giphy sad.gif" class="img_gif">
+
+
+		{% elif prediction == 1%}
+		<h2>Sentence : joy</h2>
+		<img src="static\giphy.gif" class="img_gif">
+
+		{% elif prediction == 2%}
+		<h2>Sentence : anger</h2>
+		<img src="static\giphy an.gif" class="img_gif">
+
+		{% else %}
+		<h2>Sentence : fear</h2>
+		<img src="static\QpOG.gif" class="img_gif">
+		
+
+		{% endif %}
+
+	</div>
+
+	
+
+	<style >
+		
+		.img_blur {
+			background: url('https://images.pexels.com/photos/6898861/pexels-photo-6898861.jpeg?cs=srgb&dl=pexels-roman-odintsov-6898861.jpg&fm=jpg');
+			-webkit-background-size:cover;
+			background-size: cover;
+			background-position: center;
+			height:100vh;
+			background-repeat: no-repeat;
+			position: fixed;
+			left:0;
+			right: 0;
+			z-index: -5;
+			filter: blur(12px);
+		}
+
+		.container{
+			width:100%;
+			margin: auto;
+			overflow: hidden;
+			text-align: center;
+			font-family: 'Bree Serif', serif;
+			font-size: 40px;
+			color: black;
+		}
+
+
+		
+	
+		.results{
+			font-family: 'Libre Baskerville', serif;
+			color: blue;
+			text-align: center;
+			font-size: 25px;
+		}
+
+	</style>
+
+</body>
+</html>
+
+
+
