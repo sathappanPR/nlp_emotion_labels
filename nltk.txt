@@ -13,3 +13,5 @@ porter_test
 vader_lexicon
 treebank
 dependency_treebank
+punkt
+stopwords
