@@ -18,3 +18,6 @@
 ## <img src="https://user-images.githubusercontent.com/84607354/140683643-66783115-1ad4-4917-a77a-304abfe969d1.png" width="40"> Deployment
 https://nlp-emotion-labels.herokuapp.com/
 
+## <img src="https://user-images.githubusercontent.com/84607354/140683882-06e86b29-866e-4b52-8545-3d6998e281c4.png" width="40"> Linkedin 
+
+
