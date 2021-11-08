@@ -14,5 +14,7 @@
 
 ![main](https://user-images.githubusercontent.com/84607354/140683534-0bffeda9-e724-45dd-b46d-9403797a62f6.jpg)
         
+
+## <img src="https://user-images.githubusercontent.com/84607354/140683643-66783115-1ad4-4917-a77a-304abfe969d1.png" width="40"> Deployment
 https://nlp-emotion-labels.herokuapp.com/
 
