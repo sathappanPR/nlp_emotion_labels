@@ -5,7 +5,7 @@ Home page:
     
 Result page:
     it will predict depend upon the input sentence wether it is,
-        1. Joy
+        ##1. Joy
         2. Sad
         3. Anger
         4. Fear
