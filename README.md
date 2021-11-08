@@ -11,6 +11,8 @@
         2. Sad
         3. Anger
         4. Fear
+
+![main](https://user-images.githubusercontent.com/84607354/140683534-0bffeda9-e724-45dd-b46d-9403797a62f6.jpg)
         
 https://nlp-emotion-labels.herokuapp.com/
 
