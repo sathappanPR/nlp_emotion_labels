@@ -3,7 +3,7 @@
 <h2>Home page:</h2>
     sentence taht we need to predict
     
-    ![image](https://user-images.githubusercontent.com/84607354/140682857-29650540-8348-46b5-ba29-57acae66074a.jpg)
+    ![Untitled](https://user-images.githubusercontent.com/84607354/140683088-d425bf6e-dd89-4abc-ab2d-0a47d8c75fce.png)
     
 <h2>Result page:</h2>
     it will predict depend upon the input sentence wether it is,
