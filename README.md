@@ -20,6 +20,7 @@ https://nlp-emotion-labels.herokuapp.com/
 
 ## <img src="https://user-images.githubusercontent.com/84607354/140683882-06e86b29-866e-4b52-8545-3d6998e281c4.png" width="20"> Linkedin 
 
-profile : 
+profile : www.linkedin.com/in/sathappanpr2002
 
+video : https://www.linkedin.com/feed/update/urn:li:activity:6863335643964149760/
 
